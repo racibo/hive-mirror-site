@@ -1,7 +1,6 @@
 baseURL = "https://racibo.github.io/hive-mirror-site/"
-languageCode = "en-us"
 title = "Hive Mirror Blog"
-theme = "ananke"
+languageCode = "en"
 
-[params]
-description = "Auto-published posts from @poprzeczka"
+[markup.goldmark.renderer]
+unsafe = true
