@@ -37,7 +37,7 @@
             
             try {
                 // Pobierz listę plików z content/posts
-                const response = await fetch('https://api.github.com/repos/racibo/hive-mirror-site/contents/content/posts');
+                const response = await fetch('https://raw.githubusercontent.com/racibo/hive-mirror-site/main/content/posts/index.json');
                 
                 if (!response.ok) {
                     postsDiv.innerHTML = '<div class="error">Error loading posts. Please check back later.</div>';
